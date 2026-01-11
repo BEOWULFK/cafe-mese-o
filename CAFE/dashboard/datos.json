@@ -1,0 +1,27 @@
+{
+    "por_tipo_cafe": [
+        { "anio": 2019, "verde": 12670071, "tostado": 188685, "soluble": 755709, "extracto": 60427 },
+        { "anio": 2020, "verde": 11444452, "tostado": 203093, "soluble": 758307, "extracto": 121585 },
+        { "anio": 2021, "verde": 11431572, "tostado": 219776, "soluble": 697564, "extracto": 89877 },
+        { "anio": 2022, "verde": 10373920, "tostado": 235230, "soluble": 702030, "extracto": 97061 }
+    ],
+    "por_tipo_exportador": [
+        { "anio": 2019, "fnc": 533263, "particulares": 3226648 },
+        { "anio": 2020, "fnc": 631833, "particulares": 3007611 },
+        { "anio": 2021, "fnc": 544031, "particulares": 2745434 },
+        { "anio": 2022, "fnc": 350588, "particulares": 2481036 }
+    ],
+    "destinos_2022": [
+        { "pais": "USA", "valor": 46137 },
+        { "pais": "Canadá", "valor": 74682 },
+        { "pais": "Bélgica", "valor": 69444 },
+        { "pais": "Japón", "valor": 59104 },
+        { "pais": "Alemania", "valor": 57109 },
+        { "pais": "Corea del Sur", "valor": 39764 },
+        { "pais": "España", "valor": 30166 },
+        { "pais": "Noruega", "valor": 22036 },
+        { "pais": "China", "valor": 20640 },
+        { "pais": "Reino Unido", "valor": 18529 },
+        { "pais": "Otros", "valor": 177887 }
+    ]
+}

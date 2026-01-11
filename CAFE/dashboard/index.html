@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Exportaciones de Café Colombiano</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <!-- ==============================
+       NAVEGACIÓN
+  ============================== -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#reportes">Reportes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ==============================
+       SECCIÓN INICIO
+  ============================== -->
+    <section id="inicio" class="inicio">
+        <h1>Dashboard de Exportaciones del Café Colombiano</h1>
+        <p>Visualiza los principales indicadores basados en datos de la Federación Nacional de Cafeteros.</p>
+    </section>
+
+    <!-- ==============================
+       SECCIÓN REPORTES
+  ============================== -->
+    <section id="reportes" class="reportes">
+        <h2>Reportes de Exportación</h2>
+        <div class="reportes-grid">
+            <div class="reporte-card">
+                <canvas id="graficoA"></canvas>
+                <p>Exportaciones anuales por tipo de café</p>
+            </div>
+            <div class="reporte-card">
+                <canvas id="graficoB"></canvas>
+                <p>Exportaciones por tipo de exportador</p>
+            </div>
+            <div class="reporte-card">
+                <canvas id="graficoC"></canvas>
+                <p>Principales destinos de exportación</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================
+       SECCIÓN CONTACTO
+  ============================== -->
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>Federación Nacional de Cafeteros - Nariño</p>
+        <p>info@cafedecolombia.com</p>
+    </section>
+
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

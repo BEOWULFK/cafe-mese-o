@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoAroma Nariño</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Cormorant+Garamond:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="imagenes/logo.png" alt="EcoAroma Nariño">
+            <span>EcoAroma Nariño</span>
+        </div>
+
+        <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="dashboard/index.html">Dashbo ard</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+
+        <div class="carrito">
+            🛒 <span id="contador-carrito">0</span>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="hero-texto">
+            <h1>El alma de Nariño en cada taza</h1>
+            <p>Tradición, aroma y sabor cultivados con amor en nuestras montañas.</p>
+            <a href="#productos" class="btn">Explorar Café</a>
+        </div>
+    </section>
+
+    <!-- HISTORIA -->
+    <section class="historia" id="historia">
+        <h2>Nuestra Historia</h2>
+        <p>
+            EcoAroma Nariño representa la esencia del café cultivado en las montañas del sur de Colombia. Nacemos del trabajo comprometido de familias caficultoras que han heredado la tradición de cultivar y tostar café con respeto por la tierra, el agua y las comunidades
+            rurales.
+        </p>
+        <p>
+            Colombia es reconocida como el tercer mayor productor de café del mundo y uno de los principales exportadores hacia Estados Unidos. En los últimos años, el café colombiano ha alcanzado cifras históricas de exportación, superando los 13 millones de sacos
+            anuales, destacándose por su calidad, sostenibilidad y certificaciones de comercio justo.
+        </p>
+        <p>
+            EcoAroma Nariño se une a esta tradición nacional, promoviendo la innovación y la sostenibilidad en el proceso productivo. Nuestra visión es contribuir al posicionamiento de Colombia como un referente mundial en café especial, llevando el sabor del campo
+            colombiano a nuevos mercados y generaciones.
+        </p>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="galeria" id="galeria">
+        <h2>Galería del Café</h2>
+        <div class="galeria-grid">
+            <img src="imagenes/cafegrano.webp" alt="Café en grano">
+            <img src="imagenes/caf.jpg" alt="Cultivos de café">
+            <img src="imagenes/CAFE.webp" alt="Taza de café">
+            <video src="imagenes/video-cafe.mp4" controls></video>
+        </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section class="productos" id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="buscador">
+            <input type="text" id="buscar" placeholder="Buscar café...">
+        </div>
+
+        <div class="catalogo">
+            <div class="producto">
+                <img src="imagenes/tostado premium.webp" alt="Café Tostado Premium">
+                <h3>Café Tostado Premium</h3>
+                <p>Tueste medio con notas a chocolate y caramelo.</p>
+                <p class="precio">$25.000 COP</p>
+                <button class="btn-agregar">
+  <span>🛒 Agregar</span>
+</button>
+
+            </div>
+
+            <div class="producto">
+                <img src="imagenes/grano especial.webp" alt="Café en grano Especial">
+                <h3>Café en grano Especial</h3>
+                <p>Granos seleccionados de altura, aroma intenso y sabor balanceado.</p>
+                <p class="precio">$28.000 COP</p>
+                <button class="btn-agregar">
+  <span>🛒 Agregar</span>
+</button>
+
+            </div>
+
+            <div class="producto">
+                <img src="imagenes/cafe molido.webp" alt="Café Molido Tradicional">
+                <h3>Café Molido Tradicional</h3>
+                <p>Perfecto para preparar en casa, sabor suave y cuerpo completo.</p>
+                <p class="precio">$22.000 COP</p>
+                <button class="btn-agregar">
+  <span>🛒 Agregar</span>
+</button>
+
+            </div>
+
+            <div class="producto">
+                <img src="imagenes/cafe tradicional.jpg" alt="Café Orgánico de las Mesas">
+                <h3>Café Orgánico de las Mesas</h3>
+                <p>Cultivado de forma sostenible en las montañas de Nariño.</p>
+                <p class="precio">$30.000 COP</p>
+                <button class="btn-agregar">
+  <span>🛒 Agregar</span>
+</button>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- NOTIFICACIÓN -->
+    <div id="notificacion" class="notificacion">Producto agregado al carrito ✅</div>
+
+    <!-- FOOTER -->
+    <footer id="contacto">
+        <h3>Contáctanos</h3>
+        <p>Email: <a href="mailto:contacto@ecoaromanariño.com">contacto@ecoaromanariño.com</a></p>
+        <p>Teléfono: +57 317 756 9136</p>
+        <div class="redes">
+            <a href="#">📘</a>
+            <a href="#">📸</a>
+            <a href="#">▶️</a>
+        </div>
+        <p>&copy; 2025 EcoAroma Nariño - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
